@@ -13,3 +13,10 @@ export const sequenceSum = (begin, end, step) => {
 };
 
 //Решая эту задачу я перемудрил. Результат был достигнут, но всё оказалось проще!
+//Решение учителя:
+/*
+  if (begin > end) {
+    return 0;
+  }
+  return begin + sequenceSum(begin + step, end, step);
+  */
